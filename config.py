@@ -22,7 +22,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002035485289))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
-OWNER_ID = int(getenv("OWNER_ID", 6065525851))
+OWNER_ID = int(getenv("OWNER_ID", "6065525851"))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
