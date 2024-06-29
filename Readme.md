@@ -26,7 +26,7 @@
 <details>
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
-<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/doraemon890/ANNIE-X-MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Silentsmile29/NARYA_ROBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 </details>
 
 
@@ -39,7 +39,7 @@
 
  `` ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─`` 
 
-- Get your [Necessary Variables](https://github.com/doraemon890/ANNIE-X-MUSIC/blob/Master/sample.env)
+- Get your [Necessary Variables](https://github.com/Silentsmile29/NARYA_ROBOT/blob/Master/sample.env)
 - Upgrade and Update by :
  `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -51,7 +51,7 @@
 - Install Node js by :
  `curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
- `git clone https://github.com/doraemon890/ANNIE-X-MUSIC && cd ANNIE-X-MUSIC`
+ `git clone https://github.com/Silentsmile29/NARYA_ROBOT && cd NARYA_ROBOT`
 - Install requirements by :
  `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
