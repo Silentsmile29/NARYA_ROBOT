@@ -34,7 +34,7 @@ async def make_carbon(code):
 @app.on_message(filters.command("toe", prefixes=["/", "!",]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_VID_URL = "https://telegra.ph/file/e67b9a02c18bef5b0c37e.jpg"
+    PING_VID_URL = "https://telegra.ph/file/2e7b72279b28105607667.jpg"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_video(PING_VID_URL, caption=(captionss))
     await asyncio.sleep(1)
