@@ -18,7 +18,7 @@ BOT_NAME = getenv("BOT_NAME", "𝐸𝑣𝑎 𝑚𝑢𝑠𝑖𝑐")
 ASSUSERNAME = getenv("ASSUSERNAME", "Eva_Assistant")
 EVALOP = list(map(int, getenv("EVALOP", "6891847995").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002218603984))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001647516310))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
@@ -32,7 +32,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Eva_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Eva_Robot_support")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_TOTAL_MASTI_ll")
 
 # Server limits and configurations - These can be set based on your server configurations
