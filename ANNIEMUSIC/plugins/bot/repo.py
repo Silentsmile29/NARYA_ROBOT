@@ -4,7 +4,7 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя 𝐸𝑣𝑎'𝑠 яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,11 +32,11 @@ async def start(_, msg):
      
             [
              InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Silent_Smile_04"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/+7K0IMwbLvAQwYmY1"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/ll_TOTAL_MASTI_ll"),
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/+7K0IMwbLvAQwYmY1"),          
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/ll_TOTAL_MASTI_ll"),          
              InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://github.com/Silentsmile29/NARYA_ROBOT"),
              ],
      
@@ -45,7 +45,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/2e7b72279b28105607667.jpg",
+        photo="https://telegra.ph/file/b4abb4ab9accb3fb2dfc6.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
