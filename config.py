@@ -13,9 +13,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Silent_Smile_04")
-BOT_USERNAME = getenv("BOT_USERNAME", "Hazel_X_Music_Bot")
-BOT_NAME = getenv("BOT_NAME", "𝙃𝙖𝙯𝙚𝙡 𝙈𝙪𝙨𝙞𝙘")
-ASSUSERNAME = getenv("ASSUSERNAME", "Hazel_Music_Assistant")
+BOT_USERNAME = getenv("BOT_USERNAME", "Eva_Ro_bot")
+BOT_NAME = getenv("BOT_NAME", "𝐸𝑣𝑎 𝑚𝑢𝑠𝑖𝑐")
+ASSUSERNAME = getenv("ASSUSERNAME", "Eva_Assistant")
 EVALOP = list(map(int, getenv("EVALOP", "6891847995").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002218603984))
@@ -32,8 +32,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+7K0IMwbLvAQwYmY1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7K0IMwbLvAQwYmY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Eva_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_TOTAL_MASTI_ll")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -79,10 +79,10 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/b4abb4ab9accb3fb2dfc6.jpg"
+    "START_IMG_URL", "https://graph.org/file/97baf4b1729c3ead55c8d.jpg"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://telegra.ph/file/e7464ffc455b4e8dbb477.jpg"
+    "PING_VID_URL", "https://graph.org/file/dddce87de4e764c28f6ff.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/b21cb521c304e52a32187.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/87bae0c629ae73032ae77.jpg"
