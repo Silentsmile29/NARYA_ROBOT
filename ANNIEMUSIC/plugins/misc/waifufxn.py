@@ -19,7 +19,7 @@ def get_animation(api_token, animation_type):
         return None
 
 # Command handlers for various animations
-@app.on_message(filters.command(["punch", "slap", "lick", "kill", "kick", "hug", "bite", "kiss", "highfive", "die", "run", "shoot", "dance"]) & ~filters.forwarded & ~filters.via_bot)
+@app.on_message(filters.command(["punch", "slap", "lick", "sleep", "kill", "kick", "hug", "bite", "kiss", "highfive", "die", "run", "shoot", "dance"]) & ~filters.forwarded & ~filters.via_bot)
 def animation_command(client, message):
     try:
         sender = message.from_user.mention(style='markdown')
@@ -29,6 +29,7 @@ def animation_command(client, message):
             "punch": {"emoji": "💥", "text": "punched"},
             "slap": {"emoji": "😒", "text": "slapped"},
             "lick": {"emoji": "😛", "text": "licked"},
+            "sleep": {"emoji": "😪", "text": "sleeped"},
             "kill": {"emoji": "😵", "text": "killed"},
             "kick": {"emoji": "😠", "text": "kicked"},
             "hug": {"emoji": "🤗", "text": "hugged"},
