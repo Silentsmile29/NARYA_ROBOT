@@ -34,7 +34,7 @@ from config import BANNED_USERS, lyrical, AYU
 
 
 @app.on_message(
-   filters.command(["playm", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"] ,prefixes=["/", "!"])
+   filters.command(["playm", "vplaym", "cplaym", "cvplaym", "playforcem", "vplayforcem", "cplayforcem", "cvplayforcem"] ,prefixes=["/", "!"])
             
     & filters.group
     & ~BANNED_USERS
